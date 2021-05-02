@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="emprende.edison.applibros">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Libro1.unidad_6.tarea_actividad.tarea_actividad6"></activity>
+        <activity android:name=".Libro1.unidad_6.material_aprendizaje.material_aprendizaje6" />
+        <activity android:name=".Libro1.unidad_6.area_interacciones.area_interaccion6" />
+        <activity android:name=".Libro1.unidad_5.tarea_actividades.tarea_actividades5" />
+        <activity android:name=".Libro1.unidad_5.material_aprendizaje.material_aprendizaje5" />
+        <activity android:name=".Libro1.unidad_5.area_interacciones.area_interacciones5" />
+        <activity android:name=".Libro1.unidad_3.menu_unidad3" />
+        <activity android:name=".Libro1.unidad_3.tarea_actividades.tarea_actividades3" />
+        <activity android:name=".Libro1.unidad_3.material_aprendizaje.matrial_aprendizaje3" />
+        <activity android:name=".Libro1.unidad_3.area_interacciones.area_interacciones3" />
+        <activity android:name=".Libro1.unidad_1.material_aprendizaje.contenido.material_uno" />
+        <activity android:name=".Libro1.unidad_2.tarea_actividades.tarea_actividades2" />
+        <activity android:name=".Libro1.unidad_2.material_aprendizaje.material_aprendizaje2" />
+        <activity android:name=".Libro1.unidad_2.area_interacciones.area_interacciones2" />
+        <activity android:name=".Libro1.unidad_2.menu_unidad2" />
+        <activity android:name=".Libro1.unidad_1.tarea_actividades.tarea_actividades1" />
+        <activity android:name=".Libro1.unidad_1.area_interacciones.Area_interacciones1" />
+        <activity android:name=".Libro1.unidad_4.area_interacciones.area_interacciones4" />
+        <activity android:name=".Libro1.unidad_4.material_aprendizaje.matrial_aprendizaje4" />
+        <activity android:name=".Libro1.unidad_4.tarea_actividades.tarea_actividades4" />
+        <activity android:name=".Libro1.unidad_1.menu_unidad1" />
+        <activity android:name=".Libro1.unidad_6.menu_unidad6" />
+        <activity android:name=".Libro1.unidad_5.menu_unidad5" />
+        <activity android:name=".Libro1.unidad_4.menu_unidad4" />
+        <activity android:name=".Libro1.unidad_3.unidad3" />
+        <activity android:name=".Libro1.unidad_2.unidad2" />
+        <activity android:name=".Libro1.unidad_1.material_aprendizaje.material_aprendizaje" />
+        <activity android:name=".Libro1.Libro1" />
+        <activity android:name=".SplashScre">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

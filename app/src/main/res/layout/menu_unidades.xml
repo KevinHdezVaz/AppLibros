@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/chidoo"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_below="@id/my_toolbar"
+    >
+
+<ImageView
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:id="@+id/animacion_1"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:src="@drawable/uno"
+
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    ></ImageView>
+
+
+
+<ImageView
+    android:layout_marginLeft="50dp"
+    android:id="@+id/animacion_2"
+
+    android:layout_marginRight="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:src="@drawable/dos"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    ></ImageView>
+
+<ImageView
+    android:layout_marginLeft="50dp"
+    android:id="@+id/animacion_3"
+
+    android:layout_marginRight="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:src="@drawable/tres"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    ></ImageView>
+
+</LinearLayout>

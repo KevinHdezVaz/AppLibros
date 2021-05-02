@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/my_toolbar"
+        app:title="Unidad 2"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/encavbezado"
+        android:layout_below="@id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_centerInParent="true"
+            android:backgroundTint="#d7d7d7"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.scwang.wave.MultiWaveHeader
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                ads:mwhVelocity="5"
+                ads:mwhStartColor="@color/smallTextColor"
+                app:mwhCloseColor="@color/colorPrimary"
+                android:id="@+id/wave_header"
+                ></com.scwang.wave.MultiWaveHeader>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:text="La contabilidad, una herramienta para avanzar con seguridad."
+                    android:layout_height="match_parent" />
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_below="@id/encavbezado"
+        android:id="@+id/item2_2"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+
+</RelativeLayout>
